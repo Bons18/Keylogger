@@ -6,40 +6,40 @@ Este repositorio contiene un sencillo keylogger implementado en Python utilizand
 
 Características
 
-	•	Captura de Teclas: Registra todas las teclas presionadas y las guarda en un archivo keylog.txt.
-	•	Ejecución en Segundo Plano: Funciona en segundo plano sin mostrar una ventana de consola.
+• Captura de Teclas: Registra todas las teclas presionadas y las guarda en un archivo keylog.txt.
+• Ejecución en Segundo Plano: Funciona en segundo plano sin mostrar una ventana de consola.
 
 Requisitos
 
-	•	Python 3.x
-	•	Biblioteca pynput
+• Python 3.x
+• Biblioteca pynput
 
 Instalación
 
-	1.	Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu máquina local:
 
 git clone https://github.com/tu-usuario/nombre-repositorio.git
 cd nombre-repositorio
 
 
-	2.	Instala las dependencias necesarias:
+2. Instala las dependencias necesarias:
 
 pip install pynput
 
 
-	3.	Para convertir el script de Python en un ejecutable .exe, utiliza PyInstaller:
+3. Para convertir el script de Python en un ejecutable .exe, utiliza PyInstaller:
 
 pip install pyinstaller
 pyinstaller --onefile --noconsole keylog.py
 
 
-	4.	El ejecutable se generará en la carpeta dist.
+4. El ejecutable se generará en la carpeta dist.
 
 Uso
 
-	1.	Ejecuta el archivo keylog.exe para iniciar el keylogger. Asegúrate de ejecutar el programa como administrador para tener los permisos necesarios.
-	2.	El keylogger registrará las pulsaciones de teclado y las guardará en un archivo keylog.txt en el mismo directorio donde se ejecuta el script.
-	3.	Para detener el keylogger, cierra el proceso desde el Administrador de Tareas.
+1.Ejecuta el archivo keylog.exe para iniciar el keylogger. Asegúrate de ejecutar el programa como administrador para tener los permisos necesarios.
+2.El keylogger registrará las pulsaciones de teclado y las guardará en un archivo keylog.txt en el mismo directorio donde se ejecuta el script.
+3.Para detener el keylogger, cierra el proceso desde el Administrador de Tareas.
 
 Advertencia
 
