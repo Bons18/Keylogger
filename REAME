@@ -1,0 +1,56 @@
+Keylogger
+
+Descripción
+
+Este repositorio contiene un sencillo keylogger implementado en Python utilizando la biblioteca pynput. El keylogger registra las pulsaciones de teclado y las guarda en un archivo de texto llamado keylog.txt.
+
+Características
+
+	•	Captura de Teclas: Registra todas las teclas presionadas y las guarda en un archivo keylog.txt.
+	•	Ejecución en Segundo Plano: Funciona en segundo plano sin mostrar una ventana de consola.
+
+Requisitos
+
+	•	Python 3.x
+	•	Biblioteca pynput
+
+Instalación
+
+	1.	Clona este repositorio en tu máquina local:
+
+git clone https://github.com/tu-usuario/nombre-repositorio.git
+cd nombre-repositorio
+
+
+	2.	Instala las dependencias necesarias:
+
+pip install pynput
+
+
+	3.	Para convertir el script de Python en un ejecutable .exe, utiliza PyInstaller:
+
+pip install pyinstaller
+pyinstaller --onefile --noconsole keylog.py
+
+
+	4.	El ejecutable se generará en la carpeta dist.
+
+Uso
+
+	1.	Ejecuta el archivo keylog.exe para iniciar el keylogger. Asegúrate de ejecutar el programa como administrador para tener los permisos necesarios.
+	2.	El keylogger registrará las pulsaciones de teclado y las guardará en un archivo keylog.txt en el mismo directorio donde se ejecuta el script.
+	3.	Para detener el keylogger, cierra el proceso desde el Administrador de Tareas.
+
+Advertencia
+
+Este keylogger es una herramienta que puede ser utilizada con fines maliciosos. Úsalo únicamente para fines educativos y asegúrate de tener el permiso explícito del propietario del equipo antes de ejecutarlo. No me hago responsable del uso indebido de este software.
+
+Contribuciones
+
+Las contribuciones son bienvenidas. Siéntete libre de abrir issues y enviar pull requests.
+
+Licencia
+
+Este proyecto está licenciado bajo la MIT License.
+
+Esta descripción cubre los aspectos clave de tu proyecto, proporcionando una guía clara sobre sus características, instalación, uso y advertencias. Puedes ajustar y ampliar esta descripción según sea necesario para adaptarla mejor a tu proyecto y a tu audiencia.
