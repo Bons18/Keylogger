@@ -1,16 +1,7 @@
-### Características
-- **Captura de Teclas**: Registra todas las teclas presionadas y las guarda en `keylog.txt`.
-- **Ejecución en Segundo Plano**: Funciona en segundo plano sin mostrar una ventana de consola.
+Uso 🚀
 
-### Requisitos
-- Python 3.x
-- Biblioteca `pynput`
+Ejecuta keylog.exe como administrador. El keylogger registrará las pulsaciones de teclado en keylog.txt en el mismo directorio. Para detener el keylogger, cierra el proceso desde el Administrador de Tareas.
 
-### Instalación
-Clona este repositorio, instala las dependencias necesarias y utiliza PyInstaller para convertir el script en un ejecutable. El ejecutable se generará en la carpeta `dist`.
+Advertencia ⚠️
 
-### Uso
-Ejecuta `keylog.exe` como administrador. El keylogger registrará las pulsaciones de teclado en `keylog.txt` en el mismo directorio. Para detener el keylogger, cierra el proceso desde el Administrador de Tareas.
-
-### Advertencia
 Este keylogger puede ser utilizado con fines maliciosos. Úsalo solo para fines educativos y con permiso explícito del propietario del equipo. No soy responsable del uso indebido de este software.
