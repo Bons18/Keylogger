@@ -1,8 +1,3 @@
-## Keylogger
-
-### Descripción
-Este repositorio contiene un sencillo keylogger en Python utilizando la biblioteca `pynput`. Registra las pulsaciones de teclado y las guarda en `keylog.txt`.
-
 ### Características
 - **Captura de Teclas**: Registra todas las teclas presionadas y las guarda en `keylog.txt`.
 - **Ejecución en Segundo Plano**: Funciona en segundo plano sin mostrar una ventana de consola.
